@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif !important;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    overflow-y: scroll;
+    padding: top; 
+}
+input[type="Name"], input[type="Email Address"], input[type="Password"] {
+    font-size: 10px;
+    height: 32px;
+    border-radius: 10px 10px 10px 10px;
+    width: 404px;
+    font-weight: 600vw;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.wholeone   {
+    width: 23em;
+    padding: 40px;
+    margin: 150px;
+
+}
+.next {
+    height: 10vh;
+}
+.policy {
+    margin-top: 10px;
+    font-size: 10px;
+}
+.policy {
+    margin-top: 10px;
+    font-size: 10px;
+}
+input[type="signup"] {
+    font-size: 20px; 
+    opacity: 1;
+}
+.blank-side {
+    flex: 1; 
+    padding: 20px;
+   font-size: 15px;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   overflow-y: scroll;
+}
+.less-bold {
+    font-weight: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-top: 20em;
+}
+.image-side {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form-group {
+    font-size: 15px;
+    font-weight: bold;
+    width: 50%;
+    display: flex;
+   
+
+}
+.form-group label {
+    margin-bottom: 5px;
+    font-size: auto;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px;
+    border-radius: 4px;
+}
+.last {
+    display: flex;
+   justify-content: center;
+   width: 100%;
+   margin-top: 30px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+a {
+    width: auto;
+    display: inline;
+    text-decoration: none;
+    
+}
+.google-button {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 10px 10px ;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    display: inline-flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #3a5b22;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+}
+button:hover {
+    background-color: #0074b3f7;
+}
+.responsive-image {
+border-radius: 50px 0px 0px 50px;
+    width: 100%;
+    height: 250vh; 
+    object-fit: cover; 
+}
+
