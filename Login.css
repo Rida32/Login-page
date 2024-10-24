@@ -12,6 +12,7 @@ body {
     overflow-y: scroll;
     padding: top; 
 }
+
 input[type="Name"], input[type="Email Address"], input[type="Password"] {
     font-size: 10px;
     height: 32px;
